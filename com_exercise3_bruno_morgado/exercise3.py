@@ -37,9 +37,6 @@ class CircularLinkedList:
             # Since, it is circular linked list rear will point to head    
             self.rear.next = self.head    
      
-    # # Returns the number of nodes in a circular list
-    # def size_of_list(self):
-    #     return self.num_of_nodes
     
     def clone(self):
         result = CircularLinkedList()
